@@ -18,9 +18,9 @@ STEP5:
 Add the new activity to the Android Manifest file. the code template looks like this:
 
 <code><activity</code>
-<code>android:name=".createAccountActivity"
-    android:label="@string/app_name"
-    android:exported="true"></code>
+<code>android:name=".createAccountActivity"</code>
+<code>   android:label="@string/app_name"</code>
+<code>   android:exported="true"></code>
 <code></activity></code>
 
 STEP6:
