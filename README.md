@@ -17,11 +17,11 @@ edit the layout file for activity. This will change the content of your activity
 STEP5:
 Add the new activity to the Android Manifest file. the code template looks like this:
 
-<code><activity</code>
-<code>android:name=".createAccountActivity"</code>
-<code>   android:label="@string/app_name"</code>
-<code>   android:exported="true"></code>
-<code></activity></code>
+<code><activity
+android:name=".createAccountActivity"</code>
+android:label="@string/app_name"</code>
+android:exported="true"></code>
+</activity></code>
 
 STEP6:
 Add any interactions (buttons, images, animations etc) from the java class folder asociated with the activity look in app->java->PACKAGE_NAME and find the correct package. make sure to ihave the following import structure…
