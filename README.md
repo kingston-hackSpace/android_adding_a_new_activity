@@ -20,9 +20,8 @@ Add the new activity to the Android Manifest file. the code template looks like 
 <code><activity</code>
 <code>android:name=".createAccountActivity"
     android:label="@string/app_name"
-    android:exported="true">
-</activity>
-</code>
+    android:exported="true"></code>
+<code></activity></code>
 
 STEP6:
 Add any interactions (buttons, images, animations etc) from the java class folder asociated with the activity look in app->java->PACKAGE_NAME and find the correct package. make sure to ihave the following import structure…
