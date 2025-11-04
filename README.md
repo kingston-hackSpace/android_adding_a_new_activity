@@ -17,9 +17,8 @@ edit the layout file for activity. This will change the content of your activity
 STEP5:
 Add the new activity to the Android Manifest file. the code template looks like this:
 
-<code>
-<activity
-    android:name=".createAccountActivity"
+<code><activity</code>
+<code>android:name=".createAccountActivity"
     android:label="@string/app_name"
     android:exported="true">
 </activity>
